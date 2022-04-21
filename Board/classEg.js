@@ -1,0 +1,23 @@
+class Mobile{
+    constructor(size,name,color,mic){
+        this.size=size
+        this.name=name
+        this.color=color
+        this.mic=mic
+    }
+    details(){
+        console.log(this.size)
+        console.log(this.name)
+        console.log(this.color)
+        console.log(this.mic)
+    }
+    call(){
+        console.log(true)
+    }
+    music(){
+        console.log(true)
+    }
+}
+Mobile.details()
+Mobile.call()
+Mobile.music()

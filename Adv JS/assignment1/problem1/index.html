@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calc-grid">
+        <div id="id01" class="result">
+            <!-- <input type="text" name="screen" id="screen"> -->
+            <p>hello</p>
+        </div>
+        
+        <button class="span-two" id="red" onclick="clr()">AC</button>
+        <button id="orange" onclick="del()">DEL</button>
+        <button onclick="dis('/')">/</button>
+        <button onclick="dis('1')">1</button>
+        <button onclick="dis('2')">2</button>
+        <button onclick="dis('3')">3</button>
+        <button onclick="dis('*')">x</button>
+        <button onclick="dis('4')">4</button>
+        <button onclick="dis('5')">5</button>
+        <button onclick="dis('6')">6</button>
+        <button onclick="dis('+')">+</button>
+        <button onclick="dis('7')">7</button>
+        <button onclick="dis('8')">8</button>
+        <button onclick="dis('9')">9</button>
+        <button onclick="dis('-')">-</button>
+        <button onclick="dis('.')">.</button>
+        <button onclick="dis('0')">0</button>
+        <button class="span-two" id="blue" onclick="solve()">=</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

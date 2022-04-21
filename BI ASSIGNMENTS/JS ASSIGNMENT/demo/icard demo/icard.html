@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icard Generator</title>
+    <link rel="stylesheet" href="icard.css">
+</head>
+<body>
+    <div class="back">
+        <form>
+            <h3>Enter Student details here</h3>
+
+            <label>Name:</label>
+            <input type="text" id="inName" placeholder="Enter name">
+
+            <label>College Name:</label>
+            <input type="text" id="inCollege" placeholder="Enter college name">
+
+            <label>Location:</label>
+            <input type="text" id="inLocation" placeholder="Enter location">
+
+            <label for="file" class="upload">Upload photo:</label>
+            <input type="file" id="file" accept="image/*" onchange="loadImage(event)"> 
+            
+            <button type="submit" id="preview">submit</button>
+        </form>
+
+        <div class="container">
+            <div class="card" id="result">
+                <header id="head">
+                    <div class="camp">
+                        <h4>Generated card</h4>
+                        <span>Student</span>
+                    </div>
+                    <!-- <img src="user.png" id="logo" alt=""> -->
+                </header>
+
+                <div class="content">
+                    <img src="" id="imgDisplayed">
+                    <ul>
+                        <li id="name"></li>
+                        <li id="college"></li>
+                        <li id="location"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button id="down">Download</button>
+
+    </div>
+
+
+
+    <script src="icard.js"></script>
+</body>
+</html>

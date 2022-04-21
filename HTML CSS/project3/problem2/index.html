@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width:1320px)" href="css/phone.css"> -->
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="phone.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="menu">
+            <div class="item">TACOS</div>
+            <div class="item">BEER</div>
+            <div class="item">WINES</div>
+            <div class="item">DESERTS</div>
+            <div class="item">RESERVATIONS</div>
+        </div>
+
+        <!-- SLIDE SHOW -->
+        <div class="slides">
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                        <img src="Images/vegthali.jpg" class="img">
+                    <div class="text">                
+                        <h1>Veg Thali</h1>
+                        <h2>price: 60₹</h2></div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                        <img src="Images/nonvegthali.jpg" class="img">
+                    <div class="text">
+                        <h1>Non-Veg Thali</h1>
+                        <h2>price: 120₹</h2>
+                    </div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                        <img src="Images/rotiwithmeat.jpg" class="img">
+                    <div class="text">                
+                        <h1>Roti with Meat</h1>
+                        <h2>price: 80₹</h2></div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                        <img src="Images/sweet.jpg" class="img">
+                    <div class="text">                
+                        <h1>Sweet Dish</h1>
+                        <h2>price: 50₹</h2></div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                        <img src="Images/maggi.jpg" class="img">
+                    <div class="text">                
+                        <h1>Maggi</h1>
+                        <h2>price: 20₹</h2></div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+            </div>
+            <div class="price">
+                <div class="box1">
+                    <div class="data">
+                        <h1>$ 1.99</h1>
+                        <h3>Tacos</h3>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="data">
+                        <h1>$ 3.99</h1>
+                        <h3>Combucha</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>  
+        <div class="onclick">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
+
+        <div class="features">
+            <div class="box">
+                <img class="logo" src="Images/tacos.png" alt="Tacos"/>
+                <h4>Tacos</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, officia.</p>
+            </div>
+            <div class="box">
+                <img class="logo" src="Images/beer.png" alt="Beer"/>
+                <h4>Beer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, officia.</p>
+            </div>
+            <div class="box">
+                <img class="logo" src="Images/wine.png" alt="Wine"/>
+                <h4>Wine</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, officia.</p>
+            </div>
+            <div class="box">
+                <img class="logo" src="Images/music.png" alt="Music"/>
+                <h4>Music</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, officia.</p>
+            </div>
+        </div>
+        
+        <div class="banner">
+
+            <aside class="bdr">
+                <img src="Images/feature_taco.png" width="300px" height="250px"/>
+            </aside>
+    
+            <section>
+                <h2 >Features Taco</h2>
+                <h6 class="distance">Slim profit, easy to hold and loaded with cheese</h6>
+                <h6 class="distance">This is the one you have been waiting for</h6>
+                <button class="distance">Learn More ➡️</button>
+            </section>
+        </div>
+
+        
+        <div class="line-container">
+            <div></div>
+            <div class="grams">Instant Grams</div>
+            <div></div>  
+        </div>
+
+        <div class="photo-container">
+            <div><img class="grid-image" src="https://source.unsplash.com/1600x900/?netflix"></div>
+            <div><img class="grid-image" src="https://source.unsplash.com/1600x900/?fruits"></div>
+            <div><img class="grid-image" src="https://source.unsplash.com/1600x900/?bike"></div>  
+            <div><img class="grid-image" src="https://source.unsplash.com/1600x900/?nature"></div>
+            <div><img class="grid-image" src="https://source.unsplash.com/1600x900/?cat"></div>
+            <div><img class="grid-image" src="https://source.unsplash.com/1600x900/?ipl"></div>
+            <div><img class="grid-image" src="https://source.unsplash.com/1600x900/?universe"></div>
+            <div><img class="grid-image" src="https://source.unsplash.com/1600x900/?car"></div>
+            <div><img class="grid-image" src="https://source.unsplash.com/1600x900/?sun"></div>
+            <div><img class="grid-image" src="https://source.unsplash.com/1600x900/?water"></div>
+          </div>
+          
+
+    </div>
+
+    <!-- ********************************* -->
+    <script src="index.js"></script> 
+</body>
+</html>

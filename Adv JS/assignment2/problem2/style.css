@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.input-icons i {
+    position: absolute;
+    background-color: #ff4d4d;
+    padding: 12px;
+    color: #fff;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-top: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    margin-left: 35px;
+}

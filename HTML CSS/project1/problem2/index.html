@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Survey Form</h1>
+            <h4>Thank you for taking the time to help us improve the platform</h4>
+        </div>
+        <div class="box">
+            <div class="field">
+                <label class="sub-field" for="name">Name</label><br>
+                <input class="input-field sub-field" id="name" type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="field">
+                <label class="sub-field" for="email">Email</label><br>
+                <input class="input-field sub-field" id="email" type="email" placeholder="Enter Your Email">
+            </div>
+            <div class="field">
+                <label class="sub-field" for="age">Age (optional)</label><br>
+                <input class="input-field sub-field" id="age" type="number" placeholder="Age">
+            </div>
+            <div class="field">
+                <label class="sub-field" for="role">Which option best describes your current role?</label><br>
+                <select class="input-field sub-field" name="role" id="role">
+                    <option value="Front-End Developer">Front-End Developer</option>
+                    <option value="Back-End Developer">Back-End Developer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="SQL Developer">SQL Developer</option>
+                    <option value="RPA Developer">RPA Developer</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="recommonded">Would you recommonded to a friend?</label><br>
+                <input id="recommonded" type="radio" name="friend">Definetely<br>
+                <input id="recommonded" type="radio" name="friend">not sure
+            </div>
+            <div class="field">
+                <label for="improved">What would you like to see improved? (check all that apply)</label><br>
+                <input id="improved" type="checkbox" placeholder="Age"><span class="check">Front-End Project</span><br>
+                <input id="improved" type="checkbox" placeholder="Age"><span class="check">Back-End Project</span><br>
+                <input id="improved" type="checkbox" placeholder="Age"><span class="check">Data Visualization</span><br>
+                <input id="improved" type="checkbox" placeholder="Age"><span class="check">Challenges</span><br>
+                <input id="improved" type="checkbox" placeholder="Age"><span class="check">Open Source Community</span><br>
+                <input id="improved" type="checkbox" placeholder="Age"><span class="check">Gitter help rooms</span><br>
+                <input id="improved" type="checkbox" placeholder="Age"><span class="check">Videos</span><br>
+                <input id="improved" type="checkbox" placeholder="Age"><span class="check">City Meetups</span><br>
+                <input id="improved" type="checkbox" placeholder="Age"><span class="check">Wiki</span><br>
+                <input id="improved" type="checkbox" placeholder="Age"><span class="check">Forum</span><br>
+                <input id="improved" type="checkbox" placeholder="Age"><span class="check">Additional Courses</span><br>
+            </div>
+            <div class="field">
+                <label class="sub-field" for="age">Any comments or suggestions?</label><br>
+                <textarea name="comments" class="input-field sub-field" id="comments" cols="70" rows="5"></textarea>
+            </div>
+            <div class="field">
+                <button class="btn">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

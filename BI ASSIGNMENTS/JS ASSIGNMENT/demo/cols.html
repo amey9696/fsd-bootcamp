@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display a string in a specified color.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var str = "Hello World!";
+  let color = ["red", "green", "blue", "grey", "pink","#EBAE32","#C06AEB","yellow"];
+ // i = i < color.length ? ++i : 0;
+
+  var result = str.fontcolor(color);
+  document.getElementById("demo").innerHTML = result;
+}
+</script>
+
+</body>
+</html>

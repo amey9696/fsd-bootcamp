@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    overflow-y: hidden;
+}
+
+.navbar{
+    background-color: rgb(228, 72, 72);
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: right;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navbar li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.blue{
+    margin-top: 20px;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(101, 102, 172);
+}
+
+.heading{
+    width: 50%;
+    height: 50px;
+    margin: 10px 300px 0px 400px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.underline{
+    margin: 8px 0px 0px 180px;
+    width: 52%;
+    height: 1px;
+    background-color: white;
+}
+
+.main-box{
+    width: 60%;
+    height: 300px;
+    margin: 50px 300px;
+    display: flex;
+}
+
+.box{
+    width: 30%;
+    height: 290px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.box:hover{
+    border: 2px solid red;
+}
+
+h3,h5{
+    text-align: center;
+}
+
+h6{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.tribute{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.tribute:hover{
+    background-color: orangered;
+    color: black;
+}
+
+.button{
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    margin: -50px 300px 0px 600px;
+}
+
+.show-all{
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+    opacity: 0.9;
+    margin-top: 20px;
+    width: 40%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.show-all:hover{
+    background-color: red;
+    color: black;
+}
+
+img{
+    width:275px;
+    height:180px;
+}

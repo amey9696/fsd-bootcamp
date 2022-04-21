@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: stretch;
+    /* height: 90vh; */
+    /* position: relative; */
+}
+
+.left-panel {
+    flex-basis: 20%;
+    flex-grow: 1;
+    /* position: fixed; */
+}
+
+.right-panel {
+    flex-basis: 80%;
+    flex-grow: 5;
+    overflow-y: auto;
+    /* position: absolute; */
+    /* left: 15%; */
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 65px;
+    border: 2px solid gray;
+}
+
+.hamburger-style {
+    width: 30px;
+    height: 4px;
+    background-color: rgba(19, 98, 17, 1);
+    margin: 4px 0;
+}
+
+.hamburger-content-style {
+    font-size: xx-large;
+    width: 100%;
+}
+
+.left-panel-contents {
+    max-height: 90vh;
+    height: auto;
+    overflow: auto;
+    width: 100%;
+}
+
+.menu-item {
+    height: 40px;
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

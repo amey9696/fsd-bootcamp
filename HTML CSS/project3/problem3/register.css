@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header{
+    margin-top: -10px;
+    width: 100%;
+    height: 90px;
+    background-color: lightslategray;
+}
+
+.city{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;  
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 10px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.navbar li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.content{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(212, 245, 212);
+    padding: 10px;
+}
+
+.white{
+    color:white;
+}
+
+.green{
+    color:rgb(78, 112, 78);
+}
+
+.left{
+    margin-left: 105px;
+}
+
+.center{
+    width: 50%;
+    margin: 0px 350px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.size{
+    font-size: 30px;
+}
+
+.fsize{
+    font-size: 20px;
+    color: grey;
+    margin-top: 5px;
+}
+
+.data{
+    display: flex;
+    width: 70%;
+    height: 400px;
+    margin:10px 200px ;
+}
+
+.pass{
+    color: rgb(78, 112, 78);
+    padding: 20px;
+}
+
+.reg-form{
+    padding: 20px;
+    color: grey;
+}
+
+.field{
+    margin: 10px;
+}
+
+select{
+    width: 50px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+input{
+    margin-top: 3px;
+    width: 230px;
+    height: 25px;
+}
+
+.btn{
+    padding: 6px;
+    width: 40%;
+    margin-left: 15px;
+    background-color: rgb(78, 112, 78);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: tomato;
+    color: black;
+}
+
+.sub-head{
+    margin: 5px;
+}
+
+
+.sub-head2{
+    margin: 20px;
+}
+
+.info{
+    margin: 10px;
+}
+
+li{
+    margin: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: lightslategray;
+}
+
+.bottom{
+    /* margin-top: 20px; */
+    text-align: center;
+}
+
+.midddle{
+    margin-top: 20px;
+}
+
+.midddles{
+    margin-top: 10px;
+}
+
+.blue{
+    color: cadetblue;
+    margin: 5px 0px;
+}
